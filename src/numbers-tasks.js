@@ -238,15 +238,10 @@ function getNumberValue(number) {
   return number.valueOf();
 }
 
-// 24. Returns a boolean indicating whether the parameter is a number
-/*
- * @param {*} number - The value to check.
- * @returns {boolean} - True if the parameter is a number, false otherwise.
- */
-function isNumber(number) {
-  return !isNaN(number) && typeof number === 'number';
-}
 
+function isNumber(number) {
+ return !isNaN(number) && typeof number === 'number';
+}
 // 25. Returns a boolean indicating whether a number is an integer
 /**
  * @param {number} number - The number to check.
